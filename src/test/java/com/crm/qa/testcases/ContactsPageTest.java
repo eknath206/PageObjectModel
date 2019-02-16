@@ -61,11 +61,11 @@ public class ContactsPageTest extends TestBase {
 		return data;
 	}
 	
-	@Test(priority=4, dataProvider="getCRMTestData")
-	public void validateCreateNewContact(String title, String firstName, String lastName, String company) {
-		homePage.clickOnNewContactLink();
-		contactsPage.createNewContact(title, firstName, lastName, company);
-	}
+//	@Test(priority=4, dataProvider="getCRMTestData")
+//	public void validateCreateNewContact(String title, String firstName, String lastName, String company) {
+//		homePage.clickOnNewContactLink();
+//		contactsPage.createNewContact(title, firstName, lastName, company);
+//	}
 	
 	
 	@AfterMethod
