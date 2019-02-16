@@ -13,18 +13,22 @@ public class LoginPage extends TestBase {
 	
 	// Page Factory - OR
 	
-	@FindBy(name="username")
-	WebElement username;
+	@FindBy(name="email")
+	WebElement useremail;
 	
 	@FindBy(name="password")
 	WebElement password;
 	
-	@FindBy(xpath="//input[@type='submit']")
+	@FindBy(xpath="//div[@class='ui fluid large blue submit button']")
 	WebElement loginBtn;
 	
 	//@FindBy(xpath="//img[@alt ='free crm logo']")
+<<<<<<< HEAD
 	@FindBy(xpath="//img[@src ='https://classic.crmpro.com/img/logo@2x.png']")
 	WebElement crmLogo;
+=======
+	//WebElement crmLogo;
+>>>>>>> 32384e1eb98e4595a7a418b5e370d884034378d8
 	
 	//Initializing page objects
 	public LoginPage() {
@@ -36,25 +40,26 @@ public class LoginPage extends TestBase {
 		return driver.getTitle();
 	}
 	
-	public boolean validateCRMImage() {
-		return crmLogo.isDisplayed();
-	}
+//	public boolean validateCRMImage() {
+//		return crmLogo.isDisplayed();
+//	}
 	
 	public HomePage login(String un, String pwd) {
-		username.sendKeys(un);
+		useremail.sendKeys(un);
 		password.sendKeys(pwd);
+		loginBtn.click();
 		
 		/*
 		 * Youtube URL: https://www.youtube.com/watch?v=iaI1vcEAWlM
 		 * 
 		 */
 		
-		WebDriverWait wait = new WebDriverWait(driver, 5);
-		
-		boolean invisible = wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("preloader")));
-		if(invisible) {
-			loginBtn.click();
-		}
+//		WebDriverWait wait = new WebDriverWait(driver, 5);
+//		
+//		boolean invisible = wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("preloader")));
+//		if(invisible) {
+//			loginBtn.click();
+//		}
 		
 		return new HomePage();
 	}
