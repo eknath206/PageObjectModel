@@ -22,7 +22,8 @@ public class LoginPage extends TestBase {
 	@FindBy(xpath="//input[@type='submit']")
 	WebElement loginBtn;
 	
-	@FindBy(xpath="//img[@alt ='free crm logo']")
+	//@FindBy(xpath="//img[@alt ='free crm logo']")
+	@FindBy(xpath="//img[@src ='https://classic.crmpro.com/img/logo@2x.png']")
 	WebElement crmLogo;
 	
 	//Initializing page objects

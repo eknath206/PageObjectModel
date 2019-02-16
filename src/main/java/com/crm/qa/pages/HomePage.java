@@ -12,6 +12,12 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//td[contains(text(),'User: Eknath Dhauskar')]")
 	WebElement userNameLabel;
 	
+	@FindBy(xpath="//a[@title='Calendar']")
+	WebElement calendarLink;
+	
+	@FindBy(xpath="//a[@title='Companies']")
+	WebElement companiesLink;
+	
 	@FindBy(xpath="//a[@title='Contacts']")	//OR //a[contains(text(),'Contacts')]
 	WebElement contactsLink;
 	
@@ -23,6 +29,18 @@ public class HomePage extends TestBase {
 	
 	@FindBy(xpath="//a[@title='Tasks']")	//OR //a[contains(text(), 'Tasks')]
 	WebElement tasksLink;
+	
+	@FindBy(xpath="//a[@title='Cases']")
+	WebElement casesLink;
+	
+	@FindBy(xpath="//a[@title='Call']")
+	WebElement callsLink;
+	
+	@FindBy(xpath="//a[@title='Docs']")
+	WebElement docsLink;
+	
+	@FindBy(xpath="//a[@title='Forms']")
+	WebElement formsLink;
 	
 	//Initializing the page objects
 	public HomePage() {
@@ -37,16 +55,19 @@ public class HomePage extends TestBase {
 		return userNameLabel.isDisplayed();
 	}
 	
-	public ContactsPage clickOnContactsLink() {
-		contactsLink.click();
-		
-		return new ContactsPage();
+	public CalendarPage clickOnCalendarLink() {
+		calendarLink.click();
+		return new CalendarPage();
 	}
 	
-	public DealsPage clickOnDealsLink() {
-		dealsLink.click();
-		
-		return new DealsPage();
+	public CompaniesPage clickOnCompaniesLink() {
+		companiesLink.click();
+		return new CompaniesPage();
+	}
+	
+	public ContactsPage clickOnContactsLink() {
+		contactsLink.click();
+		return new ContactsPage();
 	}
 	
 	public void clickOnNewContactLink() {
@@ -55,8 +76,35 @@ public class HomePage extends TestBase {
 		newContactLink.click();
 	}
 	
+	public DealsPage clickOnDealsLink() {
+		dealsLink.click();
+		return new DealsPage();
+	}
 	
+	public TasksPage clickOnTasksLink() {
+		tasksLink.click();
+		return new TasksPage();
+	}
+
+	public CasesPage clickOnCasesLink() {
+		casesLink.click();
+		return new CasesPage();
+	}
 	
+	public CallsPage clickOnCallsLink() {
+		callsLink.click();
+		return new CallsPage();
+	}
+	
+	public DocsPage clickOnDocsLink() {
+		docsLink.click();
+		return new DocsPage();
+	}
+	
+	public FormsPage clickOnFormsLink() {
+		formsLink.click();
+		return new FormsPage();
+	}
 
 
 }
