@@ -4,36 +4,14 @@
   <listeners>
     <listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" name="Free CRM Test Cases(failed)">
+  <test thread-count="5" name="Free CRM Test Cases3(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.ContactsPageTest">
+      <class name="com.crm.qa.testcases.CompaniesPageTest">
         <methods>
-          <include name="selectMultipleCotactsTest"/>
           <include name="setUp"/>
-          <include name="verifyContactsPageLabel"/>
-          <include name="tearDown"/>
-          <include name="validateCreateNewContact"/>
-          <include name="selectContactsTest"/>
+          <include name="validateCreateNewCompany"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
-      <class name="com.crm.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="crmLogoImageTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="loginPageTitleTest"/>
-          <include name="loginTest"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-      <class name="com.crm.qa.testcases.HomePageTest">
-        <methods>
-          <include name="verifyUserNameTest"/>
-          <include name="verifyContactsLinkTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="verifyHomePageTitleTest"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      </class> <!-- com.crm.qa.testcases.CompaniesPageTest -->
     </classes>
-  </test> <!-- Free CRM Test Cases(failed) -->
+  </test> <!-- Free CRM Test Cases3(failed) -->
 </suite> <!-- Failed suite [FREE CRM Test Automation Suite] -->

@@ -49,10 +49,10 @@ public class ContactsPageTest extends TestBase {
 	}
 	
 	@Test(priority=3)
-		public void selectMultipleCotactsTest() {
-			contactsPage.selectContactsByName("test2 test2");
-			contactsPage.selectContactsByName("test3 test3");
-		}
+	public void selectMultipleCotactsTest() {
+		contactsPage.selectContactsByName("test2 test2");
+		contactsPage.selectContactsByName("test3 test3");
+	}
 	
 	@DataProvider
 	public Object[][] getCRMTestData() {
@@ -61,11 +61,11 @@ public class ContactsPageTest extends TestBase {
 		return data;
 	}
 	
-//	@Test(priority=4, dataProvider="getCRMTestData")
-//	public void validateCreateNewContact(String title, String firstName, String lastName, String company) {
-//		homePage.clickOnNewContactLink();
-//		contactsPage.createNewContact(title, firstName, lastName, company);
-//	}
+	@Test(priority=4, dataProvider="getCRMTestData")
+	public void validateCreateNewContact(String title, String firstName, String lastName, String company) {
+		homePage.clickOnNewContactLink();
+		contactsPage.createNewContact(title, firstName, lastName, company);
+	}
 	
 	
 	@AfterMethod

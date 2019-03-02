@@ -25,12 +25,8 @@ public class TestBase {
 		
 		try {
 			prop = new Properties();
-<<<<<<< HEAD
-			FileInputStream fi = new FileInputStream("F:\\eclipse-workspace\\FreeCRMTestDemo_Git\\src\\main\\java\\com\\crm\\qa\\"
-=======
-			FileInputStream fi = new FileInputStream("F:\\eclipse-workspace\\FreeCRMTestDemo_Git_New\\src\\main\\java\\com\\crm\\qa\\"
->>>>>>> 32384e1eb98e4595a7a418b5e370d884034378d8
-					+ "config\\config.properties");
+			FileInputStream fi = new FileInputStream("F:\\eclipse-workspace\\FreeCRMTestDemo_Git\\src\\main\\java\\com\\crm\\qa\\config\\"
+					+ "config.properties");
 			prop.load(fi);
 		}catch(FileNotFoundException e) {
 			e.printStackTrace();

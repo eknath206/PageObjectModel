@@ -19,8 +19,8 @@ public class TestUtil extends TestBase {
 	public static long PAGE_LOAD_TIMEOUT = 40;
 	public static long IMPLICIT_WAIT = 30;
 	
-	public static String TESTDATA_SHEET_PATH = "F:\\eclipse-workspace\\FreeCRMTestDemo_Git_New\\src\\main\\java\\com\\crm\\qa\\"
-			+ "testdata\\freeCrmTestData.xlsx";
+	public static String TESTDATA_SHEET_PATH = "F:\\eclipse-workspace\\FreeCRMTestDemo_Git\\src\\main\\java\\com\\crm\\qa\\testdata\\"
+			+ "freeCrmTestData.xlsx";
 	
 	static Workbook book;
 	static Sheet sheet;
@@ -60,5 +60,4 @@ public class TestUtil extends TestBase {
 		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
 	}
 	
-
 }
