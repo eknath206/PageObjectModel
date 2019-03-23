@@ -40,6 +40,9 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//a[@title='Cases']")
 	WebElement casesLink;
 	
+	@FindBy(xpath="//a[@title='New Case']")
+	WebElement newCaseLink;
+	
 	@FindBy(xpath="//a[@title='Call']")
 	WebElement callsLink;
 	
@@ -115,6 +118,12 @@ public class HomePage extends TestBase {
 	public CasesPage clickOnCasesLink() {
 		casesLink.click();
 		return new CasesPage();
+	}
+	
+	public void clickOnNewCaseLink() {
+		Actions action = new Actions(driver);
+		action.moveToElement(casesLink).build().perform();
+		newCaseLink.click();
 	}
 	
 	public CallsPage clickOnCallsLink() {

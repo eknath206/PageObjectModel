@@ -1,143 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="96037" started-at="2019-02-23T13:52:11Z" finished-at="2019-02-23T13:53:47Z">
+  <suite name="Default suite" duration-ms="251414" started-at="2019-03-22T09:22:30Z" finished-at="2019-03-22T09:26:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="96037" started-at="2019-02-23T13:52:11Z" finished-at="2019-02-23T13:53:47Z">
-      <class name="com.crm.qa.testcases.DealsPageTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@1a968a59]" name="SetUp" is-config="true" duration-ms="34653" started-at="2019-02-23T13:52:11Z" finished-at="2019-02-23T13:52:45Z">
+    <test name="Default test" duration-ms="251414" started-at="2019-03-22T09:22:30Z" finished-at="2019-03-22T09:26:42Z">
+      <class name="com.crm.qa.testcases.CasesPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CasesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="62986" started-at="2019-03-22T09:22:30Z" finished-at="2019-03-22T09:23:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="verifyDealsPageLabel()[pri:1, instance:com.crm.qa.testcases.DealsPageTest@1a968a59]" name="verifyDealsPageLabel" duration-ms="84" started-at="2019-02-23T13:52:45Z" finished-at="2019-02-23T13:52:45Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCasesPageLabel()[pri:1, instance:com.crm.qa.testcases.CasesPageTest@1a968a59]" name="verifyCasesPageLabel" duration-ms="241" started-at="2019-03-22T09:23:33Z" finished-at="2019-03-22T09:23:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDealsPageLabel -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="782" started-at="2019-02-23T13:52:45Z" finished-at="2019-02-23T13:52:46Z">
+        </test-method> <!-- verifyCasesPageLabel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CasesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="2555" started-at="2019-03-22T09:23:34Z" finished-at="2019-03-22T09:23:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@1a968a59]" name="SetUp" is-config="true" duration-ms="22800" started-at="2019-02-23T13:52:48Z" finished-at="2019-02-23T13:53:11Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CasesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="51669" started-at="2019-03-22T09:23:42Z" finished-at="2019-03-22T09:24:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="validateCreateNewDeal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.DealsPageTest@1a968a59]" name="validateCreateNewDeal" duration-ms="6867" started-at="2019-02-23T13:53:11Z" data-provider="getCRMTestData" finished-at="2019-02-23T13:53:18Z">
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="validateCreateNewCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CasesPageTest@1a968a59]" name="validateCreateNewCase" duration-ms="37479" started-at="2019-03-22T09:24:33Z" data-provider="getCRMTestData" finished-at="2019-03-22T09:25:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[New Deal 1]]>
+                <![CDATA[CaseTitle1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Amazon]]>
+                <![CDATA[Awaiting input]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[10000000]]>
+                <![CDATA[aaaa]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[100]]>
+                <![CDATA[Business Support]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[10]]>
+                <![CDATA[High]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[User1]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[10000]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[New]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Existing Customer]]>
+                <![CDATA[aaaaa]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//form[@id='caseForm']/table/tbody/tr[7]/td/input"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EKNATHDHAUSKAR', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\EKNATH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58979}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 50d00c2116fe5e59a9b6839840669cd4
+*** Element info: {Using=xpath, value=//form[@id='caseForm']/table/tbody/tr[7]/td/input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//form[@id='caseForm']/table/tbody/tr[7]/td/input"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EKNATHDHAUSKAR', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\EKNATH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58979}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 50d00c2116fe5e59a9b6839840669cd4
+*** Element info: {Using=xpath, value=//form[@id='caseForm']/table/tbody/tr[7]/td/input}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.click(Unknown Source)
+at com.crm.qa.pages.CasesPage.createNewCase(CasesPage.java:122)
+at com.crm.qa.testcases.CasesPageTest.validateCreateNewCase(CasesPageTest.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCreateNewDeal -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="762" started-at="2019-02-23T13:53:18Z" finished-at="2019-02-23T13:53:18Z">
+        </test-method> <!-- validateCreateNewCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CasesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="770" started-at="2019-03-22T09:25:11Z" finished-at="2019-03-22T09:25:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@1a968a59]" name="SetUp" is-config="true" duration-ms="21978" started-at="2019-02-23T13:53:18Z" finished-at="2019-02-23T13:53:40Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CasesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="54249" started-at="2019-03-22T09:25:12Z" finished-at="2019-03-22T09:26:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="validateCreateNewDeal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.DealsPageTest@1a968a59]" name="validateCreateNewDeal" duration-ms="5680" started-at="2019-02-23T13:53:40Z" data-provider="getCRMTestData" finished-at="2019-02-23T13:53:46Z">
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="validateCreateNewCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CasesPageTest@1a968a59]" name="validateCreateNewCase" duration-ms="35091" started-at="2019-03-22T09:26:06Z" data-provider="getCRMTestData" finished-at="2019-03-22T09:26:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[New Deal 2]]>
+                <![CDATA[CaseTitle2]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Oracle]]>
+                <![CDATA[Enquiring]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[200000000]]>
+                <![CDATA[bbbb]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[80]]>
+                <![CDATA[Complaint]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[12]]>
+                <![CDATA[Low]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[User2]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[5000]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Opportunity]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Partner]]>
+                <![CDATA[zzzx]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//form[@id='caseForm']/table/tbody/tr[7]/td/input"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EKNATHDHAUSKAR', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\EKNATH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59156}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 67801bf8828eff654260554baf9115e3
+*** Element info: {Using=xpath, value=//form[@id='caseForm']/table/tbody/tr[7]/td/input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//form[@id='caseForm']/table/tbody/tr[7]/td/input"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EKNATHDHAUSKAR', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\EKNATH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59156}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 67801bf8828eff654260554baf9115e3
+*** Element info: {Using=xpath, value=//form[@id='caseForm']/table/tbody/tr[7]/td/input}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.click(Unknown Source)
+at com.crm.qa.pages.CasesPage.createNewCase(CasesPage.java:122)
+at com.crm.qa.testcases.CasesPageTest.validateCreateNewCase(CasesPageTest.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCreateNewDeal -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="757" started-at="2019-02-23T13:53:46Z" finished-at="2019-02-23T13:53:47Z">
+        </test-method> <!-- validateCreateNewCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CasesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="706" started-at="2019-03-22T09:26:41Z" finished-at="2019-03-22T09:26:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.DealsPageTest -->
+      </class> <!-- com.crm.qa.testcases.CasesPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
