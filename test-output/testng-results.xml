@@ -1,265 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="139782" started-at="2019-03-25T05:53:36Z" finished-at="2019-03-25T05:55:56Z">
+  <suite name="Default suite" duration-ms="120801" started-at="2019-03-25T09:17:41Z" finished-at="2019-03-25T09:19:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="139782" started-at="2019-03-25T05:53:36Z" finished-at="2019-03-25T05:55:56Z">
-      <class name="com.crm.qa.testcases.CallsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CallsPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="33018" started-at="2019-03-25T05:53:36Z" finished-at="2019-03-25T05:54:09Z">
+    <test name="Default test" duration-ms="120801" started-at="2019-03-25T09:17:41Z" finished-at="2019-03-25T09:19:42Z">
+      <class name="com.crm.qa.testcases.DocsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="35957" started-at="2019-03-25T09:17:42Z" finished-at="2019-03-25T09:18:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCallsPageLabel()[pri:1, instance:com.crm.qa.testcases.CallsPageTest@1a968a59]" name="verifyCallsPageLabel" duration-ms="87" started-at="2019-03-25T05:54:09Z" finished-at="2019-03-25T05:54:09Z">
+        <test-method status="PASS" signature="verifyDocsPageLabel()[pri:1, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="verifyDocsPageLabel" duration-ms="271" started-at="2019-03-25T09:18:17Z" finished-at="2019-03-25T09:18:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCallsPageLabel -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CallsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="735" started-at="2019-03-25T05:54:09Z" finished-at="2019-03-25T05:54:10Z">
+        </test-method> <!-- verifyDocsPageLabel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="872" started-at="2019-03-25T09:18:18Z" finished-at="2019-03-25T09:18:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CallsPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="18730" started-at="2019-03-25T05:54:11Z" finished-at="2019-03-25T05:54:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="21560" started-at="2019-03-25T09:18:21Z" finished-at="2019-03-25T09:18:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="validateCreateNewCall(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CallsPageTest@1a968a59]" name="validateCreateNewCall" duration-ms="34459" started-at="2019-03-25T05:54:30Z" data-provider="getCRMTestData" finished-at="2019-03-25T05:55:05Z">
+        <test-method status="PASS" signature="validateCreateNewDocument(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="validateCreateNewDocument" duration-ms="17962" started-at="2019-03-25T09:18:42Z" data-provider="getCRMTestData" finished-at="2019-03-25T09:19:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[zzzx]]>
+                <![CDATA[Doc1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[aaaa]]>
+                <![CDATA[Document 1]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[cccc]]>
+                <![CDATA[0.1]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[eeee]]>
+                <![CDATA[abcd]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[gggg]]>
+                <![CDATA[efgh]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ijkl]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[mnop]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[qrst]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[uvwxyz]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"f_trigger_c_start_time"}
-  (Session info: chrome=73.0.3683.86)
-  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EKNATHDHAUSKAR', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\EKNATH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50731}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: 94de7b38dd4562f08ea106c91bc625fa
-*** Element info: {Using=id, value=f_trigger_c_start_time}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"f_trigger_c_start_time"}
-  (Session info: chrome=73.0.3683.86)
-  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EKNATHDHAUSKAR', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\EKNATH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50731}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: 94de7b38dd4562f08ea106c91bc625fa
-*** Element info: {Using=id, value=f_trigger_c_start_time}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at com.sun.proxy.$Proxy8.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.click(Unknown Source)
-at com.crm.qa.pages.CallsPage.createNewCall(CallsPage.java:85)
-at com.crm.qa.testcases.CallsPageTest.validateCreateNewCall(CallsPageTest.java:54)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCreateNewCall -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CallsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="704" started-at="2019-03-25T05:55:05Z" finished-at="2019-03-25T05:55:05Z">
+        </test-method> <!-- validateCreateNewDocument -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="3123" started-at="2019-03-25T09:19:00Z" finished-at="2019-03-25T09:19:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CallsPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="16218" started-at="2019-03-25T05:55:05Z" finished-at="2019-03-25T05:55:21Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="25360" started-at="2019-03-25T09:19:03Z" finished-at="2019-03-25T09:19:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="validateCreateNewCall(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.CallsPageTest@1a968a59]" name="validateCreateNewCall" duration-ms="33693" started-at="2019-03-25T05:55:21Z" data-provider="getCRMTestData" finished-at="2019-03-25T05:55:55Z">
+        <test-method status="PASS" signature="validateCreateNewDocument(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="validateCreateNewDocument" duration-ms="12316" started-at="2019-03-25T09:19:29Z" data-provider="getCRMTestData" finished-at="2019-03-25T09:19:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[aaaa]]>
+                <![CDATA[Doc2]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[bbbb]]>
+                <![CDATA[Document 2]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[dddd]]>
+                <![CDATA[1.9]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[ffff]]>
+                <![CDATA[dcba]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[hhhh]]>
+                <![CDATA[hgfe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[lkji]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ponm]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[tsrq]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[zyxwvy]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"f_trigger_c_start_time"}
-  (Session info: chrome=73.0.3683.86)
-  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EKNATHDHAUSKAR', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\EKNATH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50786}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: 524c59275f7f2d9fdfd38020a0071c97
-*** Element info: {Using=id, value=f_trigger_c_start_time}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"f_trigger_c_start_time"}
-  (Session info: chrome=73.0.3683.86)
-  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EKNATHDHAUSKAR', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\EKNATH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50786}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: 524c59275f7f2d9fdfd38020a0071c97
-*** Element info: {Using=id, value=f_trigger_c_start_time}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at com.sun.proxy.$Proxy8.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.click(Unknown Source)
-at com.crm.qa.pages.CallsPage.createNewCall(CallsPage.java:85)
-at com.crm.qa.testcases.CallsPageTest.validateCreateNewCall(CallsPageTest.java:54)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCreateNewCall -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CallsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="640" started-at="2019-03-25T05:55:55Z" finished-at="2019-03-25T05:55:56Z">
+        </test-method> <!-- validateCreateNewDocument -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="1375" started-at="2019-03-25T09:19:41Z" finished-at="2019-03-25T09:19:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.CallsPageTest -->
+      </class> <!-- com.crm.qa.testcases.DocsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

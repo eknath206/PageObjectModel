@@ -52,11 +52,11 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//a[@title='Docs']")
 	WebElement docsLink;
 	
+	@FindBy(xpath="//a[@title='New Document']")
+	WebElement newDocumentLink;
+	
 	@FindBy(xpath="//a[@title='Forms']")
 	WebElement formsLink;
-
-	@FindBy(xpath="//a[@title='Docs']")
-	WebElement documentsLink;
 	
 	@FindBy(xpath="//a[@title='Campaigns']")
 	WebElement campaignsLink;
@@ -145,14 +145,15 @@ public class HomePage extends TestBase {
 		return new DocsPage();
 	}
 	
+	public void clickOnNewDocumentLink() {
+		Actions action = new Actions(driver);
+		action.moveToElement(docsLink).build().perform();
+		newDocumentLink.click();
+	}
+	
 	public FormsPage clickOnFormsLink() {
 		formsLink.click();
 		return new FormsPage();
-	}
-
-	public DocumentsPage clickOnDocumentsLink() {
-		documentsLink.click();
-		return new DocumentsPage();
 	}
 	
 	public CampaignsPage clickOnCampaignsLink() {
