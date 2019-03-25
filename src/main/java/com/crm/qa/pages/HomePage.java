@@ -46,6 +46,9 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//a[@title='Call']")
 	WebElement callsLink;
 	
+	@FindBy(xpath="//a[@title='New Call']")
+	WebElement newCallLink;
+	
 	@FindBy(xpath="//a[@title='Docs']")
 	WebElement docsLink;
 	
@@ -129,6 +132,12 @@ public class HomePage extends TestBase {
 	public CallsPage clickOnCallsLink() {
 		callsLink.click();
 		return new CallsPage();
+	}
+	
+	public void clickOnNewCallLink() {
+		Actions action = new Actions(driver);
+		action.moveToElement(callsLink).build().perform();
+		newCallLink.click();
 	}
 	
 	public DocsPage clickOnDocsLink() {

@@ -15,9 +15,6 @@ public class CasesPage extends TestBase {
 	@FindBy(xpath="//td[contains(text(), 'Cases')]")
 	WebElement casesLabel;
 	
-	@FindBy(xpath="//a[@title='Cases']")
-	WebElement casesLink;
-	
 	@FindBy(id="title")
 	WebElement caseTitle;
 	
@@ -76,8 +73,6 @@ public class CasesPage extends TestBase {
 		
 		Select selectCaseStatus = new Select(caseStatusDropDown);
 		selectCaseStatus.selectByVisibleText(cStatus);
-		
-		//caseDeadline.sendKeys(cDeadline);
 		
 		caseDeadlineDatePicker.click();
 		
