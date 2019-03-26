@@ -1,143 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="120801" started-at="2019-03-25T09:17:41Z" finished-at="2019-03-25T09:19:42Z">
+  <suite name="Default suite" duration-ms="83009" started-at="2019-03-26T10:56:53Z" finished-at="2019-03-26T10:58:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="120801" started-at="2019-03-25T09:17:41Z" finished-at="2019-03-25T09:19:42Z">
-      <class name="com.crm.qa.testcases.DocsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="35957" started-at="2019-03-25T09:17:42Z" finished-at="2019-03-25T09:18:17Z">
+    <test name="Default test" duration-ms="83009" started-at="2019-03-26T10:56:53Z" finished-at="2019-03-26T10:58:16Z">
+      <class name="com.crm.qa.testcases.WordMergeTemplatePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.WordMergeTemplatePageTest@1a968a59]" name="setUp" is-config="true" duration-ms="23537" started-at="2019-03-26T10:56:54Z" finished-at="2019-03-26T10:57:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyDocsPageLabel()[pri:1, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="verifyDocsPageLabel" duration-ms="271" started-at="2019-03-25T09:18:17Z" finished-at="2019-03-25T09:18:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDocsPageLabel -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="872" started-at="2019-03-25T09:18:18Z" finished-at="2019-03-25T09:18:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="21560" started-at="2019-03-25T09:18:21Z" finished-at="2019-03-25T09:18:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateCreateNewDocument(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="validateCreateNewDocument" duration-ms="17962" started-at="2019-03-25T09:18:42Z" data-provider="getCRMTestData" finished-at="2019-03-25T09:19:00Z">
+        <test-method status="PASS" signature="validateCreateNewWordMergeTemplate(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.WordMergeTemplatePageTest@1a968a59]" name="validateCreateNewWordMergeTemplate" duration-ms="15419" started-at="2019-03-26T10:57:17Z" data-provider="getCRMTestData" finished-at="2019-03-26T10:57:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Doc1]]>
+                <![CDATA[Template1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Document 1]]>
+                <![CDATA[Template1 description]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[0.1]]>
+                <![CDATA[v1]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[abcd]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[efgh]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[ijkl]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[mnop]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[qrst]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[uvwxyz]]>
+                <![CDATA[Template 1 tags]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCreateNewDocument -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="3123" started-at="2019-03-25T09:19:00Z" finished-at="2019-03-25T09:19:03Z">
+        </test-method> <!-- validateCreateNewWordMergeTemplate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.WordMergeTemplatePageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="1562" started-at="2019-03-26T10:57:33Z" finished-at="2019-03-26T10:57:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="25360" started-at="2019-03-25T09:19:03Z" finished-at="2019-03-25T09:19:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.WordMergeTemplatePageTest@1a968a59]" name="setUp" is-config="true" duration-ms="27285" started-at="2019-03-26T10:57:34Z" finished-at="2019-03-26T10:58:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateCreateNewDocument(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="validateCreateNewDocument" duration-ms="12316" started-at="2019-03-25T09:19:29Z" data-provider="getCRMTestData" finished-at="2019-03-25T09:19:41Z">
+        <test-method status="PASS" signature="validateCreateNewWordMergeTemplate(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.WordMergeTemplatePageTest@1a968a59]" name="validateCreateNewWordMergeTemplate" duration-ms="13562" started-at="2019-03-26T10:58:01Z" data-provider="getCRMTestData" finished-at="2019-03-26T10:58:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Doc2]]>
+                <![CDATA[Template2]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Document 2]]>
+                <![CDATA[Template2 description]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[1.9]]>
+                <![CDATA[v2]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[dcba]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[hgfe]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[lkji]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[ponm]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[tsrq]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[zyxwvy]]>
+                <![CDATA[Template 2 tags]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCreateNewDocument -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DocsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="1375" started-at="2019-03-25T09:19:41Z" finished-at="2019-03-25T09:19:42Z">
+        </test-method> <!-- validateCreateNewWordMergeTemplate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.WordMergeTemplatePageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="899" started-at="2019-03-26T10:58:15Z" finished-at="2019-03-26T10:58:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.DocsPageTest -->
+      </class> <!-- com.crm.qa.testcases.WordMergeTemplatePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

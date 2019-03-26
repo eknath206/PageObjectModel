@@ -18,7 +18,6 @@ import com.crm.qa.pages.FormsPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
 import com.crm.qa.pages.TasksPage;
-import com.crm.qa.pages.WordMergeTemplatePage;
 import com.crm.qa.util.TestUtil;
 
 public class HomePageTest extends TestBase {
@@ -35,7 +34,6 @@ public class HomePageTest extends TestBase {
 	CallsPage callsPage;
 	DocsPage docsPage;
 	FormsPage formsPage;
-	WordMergeTemplatePage wordMergeTemplatePage;
 	CampaignsPage campaignsPage;
 	
 	public HomePageTest() {
@@ -53,7 +51,6 @@ public class HomePageTest extends TestBase {
 		tasksPage = new TasksPage();
 		casesPage = new CasesPage();
 		callsPage = new CallsPage();
-		wordMergeTemplatePage = new WordMergeTemplatePage();
 		campaignsPage = new CampaignsPage();
 		
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));

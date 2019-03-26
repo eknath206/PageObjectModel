@@ -55,6 +55,9 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//a[@title='New Document']")
 	WebElement newDocumentLink;
 	
+	@FindBy(xpath="//*[@id='navmenu']/ul/li[13]/ul/li[3]/a")
+	WebElement newDirectoryLink;
+	
 	@FindBy(xpath="//a[@title='Forms']")
 	WebElement formsLink;
 	
@@ -149,6 +152,12 @@ public class HomePage extends TestBase {
 		Actions action = new Actions(driver);
 		action.moveToElement(docsLink).build().perform();
 		newDocumentLink.click();
+	}
+	
+	public void clickOnNewDirectoryLink() {
+		Actions action = new Actions(driver);
+		action.moveToElement(docsLink).build().perform();
+		newDirectoryLink.click();
 	}
 	
 	public FormsPage clickOnFormsLink() {
