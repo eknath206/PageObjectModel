@@ -36,7 +36,8 @@ public class WordMergeTemplatePage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void createNewWordMergeTemplate(String tempTitle, String tempDescription, String tempVersion, String tempTags) throws InterruptedException, AWTException {
+	public void createNewWordMergeTemplate(String tempTitle, String tempDescription, String tempVersion, 
+			String tempTags) throws InterruptedException, AWTException {
 		
 		templateTitle.sendKeys(tempTitle);
 		templateDescription.sendKeys(tempDescription);

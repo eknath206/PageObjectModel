@@ -56,7 +56,10 @@ public class HomePage extends TestBase {
 	WebElement newDocumentLink;
 	
 	@FindBy(xpath="//*[@id='navmenu']/ul/li[13]/ul/li[3]/a")
-	WebElement newDirectoryLink;
+	WebElement newWordMergeTemplateLink;
+	
+	@FindBy(xpath="//a[@title='Multi Doc Upload']")
+	WebElement multiDocUploadLink;
 	
 	@FindBy(xpath="//a[@title='Forms']")
 	WebElement formsLink;
@@ -157,7 +160,13 @@ public class HomePage extends TestBase {
 	public void clickOnNewDirectoryLink() {
 		Actions action = new Actions(driver);
 		action.moveToElement(docsLink).build().perform();
-		newDirectoryLink.click();
+		newWordMergeTemplateLink.click();
+	}
+	
+	public void clickOnMultiDocUploadLink() {
+		Actions action = new Actions(driver);
+		action.moveToElement(docsLink).build().perform();
+		multiDocUploadLink.click();
 	}
 	
 	public FormsPage clickOnFormsLink() {
