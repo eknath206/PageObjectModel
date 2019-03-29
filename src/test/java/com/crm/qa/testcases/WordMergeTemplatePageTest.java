@@ -13,22 +13,22 @@ import com.crm.qa.pages.LoginPage;
 import com.crm.qa.pages.WordMergeTemplatePage;
 import com.crm.qa.util.TestUtil;
 
-public class WordMergeTemplatePageTest extends TestBase{
-	
+public class WordMergeTemplatePageTest extends TestBase {
+
 	LoginPage loginPage;
 	HomePage homePage;
 	TestUtil testUtil;
 	WordMergeTemplatePage wordMergeTemplatePage;
-	
+
 	String sheetName = "Templates";
-	
+
 	public WordMergeTemplatePageTest() {
 		super();
 	}
-	
+
 	@BeforeMethod
 	public void setUp() {
-		
+
 		initialization();
 		loginPage = new LoginPage();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
@@ -36,23 +36,24 @@ public class WordMergeTemplatePageTest extends TestBase{
 		testUtil.switchToFrame();
 		wordMergeTemplatePage = new WordMergeTemplatePage();
 	}
-	
+
 	@DataProvider
 	public Object[][] getCRMTestData() {
-		
+
 		Object data[][] = TestUtil.getTestData(sheetName);
 		return data;
-		
+
 	}
-	
-	@Test(priority=1, dataProvider = "getCRMTestData")
-	public void validateCreateNewWordMergeTemplate(String tempTitle, String tempDescription, String tempVersion, String tempTags) throws InterruptedException, AWTException {
-		
+
+	@Test(priority = 1, dataProvider = "getCRMTestData")
+	public void validateCreateNewWordMergeTemplate(String tempTitle, String tempDescription, String tempVersion,
+			String tempTags) throws InterruptedException, AWTException {
+
 		homePage.clickOnNewDirectoryLink();
 		wordMergeTemplatePage.createNewWordMergeTemplate(tempTitle, tempDescription, tempVersion, tempTags);
-		
+
 	}
-	
+
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

@@ -20,7 +20,7 @@
 	
 		<test name="Free CRM Test Cases3">
 		<classes>
-			<class name="com.crm.qa.testcases.CompaniesPageTest"></class>
+			<class name="com.crm.qa.testcases.ContactsPageTest"></class>
 		</classes>
 	</test>
 	

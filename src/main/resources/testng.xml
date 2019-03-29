@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="FREE CRM Test Automation Suite">
+<suite name="FREE CRM Test Automation Suite" verbose="3">
 
 	<listeners>
 		<listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
 
-	<test name="Free CRM Test Cases1">
+	<test name="Free CRM Test Cases">
 		<classes>
 			<class name="com.crm.qa.testcases.LoginPageTest"></class>
-		</classes>
-	</test>
-	
-		<test name="Free CRM Test Cases2">
-		<classes>
- 			<class name="com.crm.qa.testcases.HomePageTest"></class>
-		</classes>
-	</test>
-	
-		<test name="Free CRM Test Cases3">
-		<classes>
+			<class name="com.crm.qa.testcases.HomePageTest"></class>
+			<class name="com.crm.qa.testcases.CompaniesPageTest"></class>
 			<class name="com.crm.qa.testcases.ContactsPageTest"></class>
+			<class name="com.crm.qa.testcases.DealsPageTest"></class>
+			<class name="com.crm.qa.testcases.CasesPageTest"></class>
+			<class name="com.crm.qa.testcases.CallsPageTest"></class>
+			<class name="com.crm.qa.testcases.WordMergeTemplatePageTest"></class>
+			<class name="com.crm.qa.testcases.DocsPageTest"></class>
+			<class name="com.crm.qa.testcases.MultiDocUploadPageTest"></class>
+			<class name="com.crm.qa.testcases.FormsPageTest"></class>
 		</classes>
 	</test>
-	
 </suite>

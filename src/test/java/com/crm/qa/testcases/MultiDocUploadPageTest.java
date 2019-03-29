@@ -14,18 +14,18 @@ import com.crm.qa.pages.MultiDocUploadPage;
 import com.crm.qa.util.TestUtil;
 
 public class MultiDocUploadPageTest extends TestBase {
-	
+
 	LoginPage loginPage;
 	HomePage homePage;
 	TestUtil testUtil;
 	MultiDocUploadPage multiDocUploadPage;
-	
+
 	String sheetName = "MultiDocs";
-	
+
 	public MultiDocUploadPageTest() {
 		super();
 	}
-	
+
 	@BeforeMethod
 	public void setUp() {
 		initialization();
@@ -35,21 +35,21 @@ public class MultiDocUploadPageTest extends TestBase {
 		testUtil.switchToFrame();
 		multiDocUploadPage = new MultiDocUploadPage();
 	}
-	
+
 	@DataProvider
 	public Object[][] getCRMTestData() {
 		Object data[][] = TestUtil.getTestData(sheetName);
 		return data;
 	}
-	
-	@Test(dataProvider="getCRMTestData")
-	public void validateUploadMultipleFiles(String mDFolder, String mDContact, String mDClient, String mDProspect, String mDTask, String mDCase, 
-			String mDTags) throws InterruptedException, AWTException {
-		
+
+	@Test(dataProvider = "getCRMTestData")
+	public void validateUploadMultipleFiles(String mDFolder, String mDContact, String mDClient, String mDProspect,
+			String mDTask, String mDCase, String mDTags) throws InterruptedException, AWTException {
+
 		homePage.clickOnMultiDocUploadLink();
 		multiDocUploadPage.uploadMultipleFiles(mDFolder, mDContact, mDClient, mDProspect, mDTask, mDCase, mDTags);
 	}
-	
+
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

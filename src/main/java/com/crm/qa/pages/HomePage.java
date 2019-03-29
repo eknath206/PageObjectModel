@@ -37,6 +37,9 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//a[@title='Tasks']")	//OR //a[contains(text(), 'Tasks')]
 	WebElement tasksLink;
 	
+	@FindBy(xpath="//a[@title='New Task']")
+	WebElement newTaskLink;
+	
 	@FindBy(xpath="//a[@title='Cases']")
 	WebElement casesLink;
 	
@@ -63,6 +66,9 @@ public class HomePage extends TestBase {
 	
 	@FindBy(xpath="//a[@title='Forms']")
 	WebElement formsLink;
+	
+	@FindBy(xpath="//a[@title='New Form']")
+	WebElement newFormLink;
 	
 	@FindBy(xpath="//a[@title='Campaigns']")
 	WebElement campaignsLink;
@@ -123,6 +129,12 @@ public class HomePage extends TestBase {
 		tasksLink.click();
 		return new TasksPage();
 	}
+	
+	public void clickOnNewTaskLink() {
+		Actions action = new Actions(driver);
+		action.moveToElement(tasksLink).build().perform();
+		newTaskLink.click();
+	}
 
 	public CasesPage clickOnCasesLink() {
 		casesLink.click();
@@ -172,6 +184,12 @@ public class HomePage extends TestBase {
 	public FormsPage clickOnFormsLink() {
 		formsLink.click();
 		return new FormsPage();
+	}
+	
+	public void clickOnNewFormLink() {
+		Actions action = new Actions(driver);
+		action.moveToElement(formsLink).build().perform();
+		newFormLink.click();
 	}
 	
 	public CampaignsPage clickOnCampaignsLink() {
