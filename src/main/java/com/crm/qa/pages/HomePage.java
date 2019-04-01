@@ -73,6 +73,9 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//a[@title='Campaigns']")
 	WebElement campaignsLink;
 	
+	@FindBy(xpath="//a[@title='Alerts']")
+	WebElement alertsLink;
+	
 	
 	//Initializing the page objects
 	public HomePage() {
@@ -195,6 +198,11 @@ public class HomePage extends TestBase {
 	public CampaignsPage clickOnCampaignsLink() {
 		campaignsLink.click();
 		return new CampaignsPage();
+	}
+	
+	public AlertsPage clickOnAlertsLink() {
+		alertsLink.click();
+		return new AlertsPage();
 	}
 
 
