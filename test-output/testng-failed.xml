@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.TasksPageTest">
+      <class name="com.crm.qa.testcases.MessagesPageTest">
         <methods>
-          <include name="validateAddNewTask" invocation-numbers="0 1"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="verifyMessagesBoardPostLabelTest"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.TasksPageTest -->
+      </class> <!-- com.crm.qa.testcases.MessagesPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

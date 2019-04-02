@@ -2,102 +2,72 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="90253" started-at="2019-04-01T13:13:57Z" finished-at="2019-04-01T13:15:27Z">
+  <suite name="Default suite" duration-ms="73198" started-at="2019-04-02T11:58:14Z" finished-at="2019-04-02T11:59:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="90253" started-at="2019-04-01T13:13:57Z" finished-at="2019-04-01T13:15:27Z">
-      <class name="com.crm.qa.testcases.AlertsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.AlertsPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="41906" started-at="2019-04-01T13:13:57Z" finished-at="2019-04-01T13:14:39Z">
+    <test name="Default test" duration-ms="73198" started-at="2019-04-02T11:58:14Z" finished-at="2019-04-02T11:59:27Z">
+      <class name="com.crm.qa.testcases.MessagesPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.MessagesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="24361" started-at="2019-04-02T11:58:14Z" finished-at="2019-04-02T11:58:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAlertsPageLabel()[pri:1, instance:com.crm.qa.testcases.AlertsPageTest@1a968a59]" name="verifyAlertsPageLabel" duration-ms="132" started-at="2019-04-01T13:14:39Z" finished-at="2019-04-01T13:14:39Z">
+        <test-method status="PASS" signature="verifyMessageBoardLabelTest()[pri:1, instance:com.crm.qa.testcases.MessagesPageTest@1a968a59]" name="verifyMessageBoardLabelTest" duration-ms="188" started-at="2019-04-02T11:58:38Z" finished-at="2019-04-02T11:58:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAlertsPageLabel -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.AlertsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="1141" started-at="2019-04-01T13:14:39Z" finished-at="2019-04-01T13:14:40Z">
+        </test-method> <!-- verifyMessageBoardLabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.MessagesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="938" started-at="2019-04-02T11:58:38Z" finished-at="2019-04-02T11:58:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.AlertsPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="21679" started-at="2019-04-01T13:14:41Z" finished-at="2019-04-01T13:15:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.MessagesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="19143" started-at="2019-04-02T11:58:41Z" finished-at="2019-04-02T11:59:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateCreateNewAlert(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.AlertsPageTest@1a968a59]" name="validateCreateNewAlert" duration-ms="2442" started-at="2019-04-01T13:15:03Z" data-provider="getCRMData" finished-at="2019-04-01T13:15:06Z">
+        <test-method status="PASS" signature="validateCreateNewMessage(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.MessagesPageTest@1a968a59]" name="validateCreateNewMessage" duration-ms="3682" started-at="2019-04-02T11:59:00Z" data-provider="getCRMData" finished-at="2019-04-02T11:59:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[O]wner]]>
+                <![CDATA[new message 1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Contacts]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Ownership Changed]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Email Alert]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Yes]]>
+                <![CDATA[new message 1 text]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCreateNewAlert -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.AlertsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="1235" started-at="2019-04-01T13:15:06Z" finished-at="2019-04-01T13:15:07Z">
+        </test-method> <!-- validateCreateNewMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.MessagesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="722" started-at="2019-04-02T11:59:04Z" finished-at="2019-04-02T11:59:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.AlertsPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="16469" started-at="2019-04-01T13:15:07Z" finished-at="2019-04-01T13:15:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.MessagesPageTest@1a968a59]" name="setUp" is-config="true" duration-ms="17374" started-at="2019-04-02T11:59:05Z" finished-at="2019-04-02T11:59:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateCreateNewAlert(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.AlertsPageTest@1a968a59]" name="validateCreateNewAlert" duration-ms="2904" started-at="2019-04-01T13:15:23Z" data-provider="getCRMData" finished-at="2019-04-01T13:15:26Z">
+        <test-method status="PASS" signature="validateCreateNewMessage(java.lang.String, java.lang.String)[pri:2, instance:com.crm.qa.testcases.MessagesPageTest@1a968a59]" name="validateCreateNewMessage" duration-ms="3935" started-at="2019-04-02T11:59:22Z" data-provider="getCRMData" finished-at="2019-04-02T11:59:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[S]pecific User (select below)]]>
+                <![CDATA[new message 2]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Events]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Note Added]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Text Message Alert]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[No]]>
+                <![CDATA[new message 2 text]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCreateNewAlert -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.AlertsPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="730" started-at="2019-04-01T13:15:26Z" finished-at="2019-04-01T13:15:27Z">
+        </test-method> <!-- validateCreateNewMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.MessagesPageTest@1a968a59]" name="tearDown" is-config="true" duration-ms="825" started-at="2019-04-02T11:59:26Z" finished-at="2019-04-02T11:59:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.AlertsPageTest -->
+      </class> <!-- com.crm.qa.testcases.MessagesPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
